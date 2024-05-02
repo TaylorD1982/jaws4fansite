@@ -9,12 +9,20 @@
 		}
 
 .jaws-image {
-border-radius: 10%;
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 30%;
+			border-radius: 10%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 30%;
 	}
+
+p	{
+	font-family: 'Nanum Myeongjo', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 
 /*-------------------------Navigation Bar--------*/
@@ -68,6 +76,35 @@ html, body {
 	text-align: center;
 }
 
+ /*------------------------- Review Section --------*/
+
+.mycontainer {
+  	display: flex;
+	padding-bottom: 60px;
+}
+.mycontainer > div {
+  	width:33%;
+	color: black;
+	font-family: 'Nanum Myeongjo', serif;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.review-heading {
+	font-weight: bold;
+	color: black;
+	font-family: 'Nanum Myeongjo', serif;
+	font-size: 150%;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.review-text {
+	font-size: 100%;
+}
+
+
  /*------------------------- Cast --------*/
 
 .cast {
@@ -79,7 +116,11 @@ html, body {
 }
 
 .table {
-	
+	width:70%;
+	margin: auto;
+	margin-bottom: 30px;
+	text-align: center;
+	font-family: 'Nanum Myeongjo', serif;
 }
 
  /*------------------------- Movie Website Links --------*/
