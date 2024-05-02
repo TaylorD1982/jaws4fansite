@@ -20,6 +20,16 @@
 
 		<title>Jaws The Revenge</title>
  		<link rel="icon" type="image/x-icon" href="C:\Users\david\OneDrive\Desktop\jaws-image1.jpg">
+		
+		<script type="text/javascript">
+		function change( el )
+		{
+    			if ( el.value === "More plot" )
+        			el.value = "Less plot";
+    			else
+        			el.value = "More plot";
+		}
+</script>
 </head>
 <body>
 	<h1 class="heading">Jaws 4: The Revenge</h1>
@@ -45,7 +55,7 @@
                     		<a class="nav-link" href="#C7">Reception</a>
                 		</li>
                 		<li class="nav-item">
-                    		<a class="nav-link" href="#C6">Contact</a>
+                    		<a class="nav-link" href="#C6">Trailer</a>
                 		</li>
             		</ul>
         	</div>
@@ -80,6 +90,51 @@ Martin's widow, Ellen, still lives in Amity, close to her younger son, Sean, and
 Sean works as a police deputy, and when he is dispatched to clear a log from a buoy a few days before Christmas, 
 a great white shark appears and tears off his arm. He screams for help, but the singing on land drowns out his cries. 
 The shark sinks his boat and drags him underwater to his death.</p>
+
+	<input type="button" class="btn btn-outline-dark btn-lg" data-toggle="collapse" data-target="#demo" value="More plot" onclick="return change(this);" />
+
+  <div id="demo" class="collapse">
+
+    	<p class="expanded-plot-para-1">Martin's older son, Michael, his wife, Carla, and their five-year-old daughter, Thea, come to Amity for the funeral. 
+	Michael works in the Bahamas as a marine biologist, and on his arrival, Ellen demands he stop his work. 
+	Having just received his first grant, Michael is reluctant. Thea convinces Ellen to return to the Bahamas with them.</p>
+	
+	<p>The pilot of their small plane, Hoagie, takes an interest in Ellen when he flies them back. Wanting to take her mind off 
+	her recent losses and finding herself attracted, she begins spending time with him. Michael introduces his mother to his 
+	colleague Jake and his wife Louisa, and they spend Christmas and New Year's together.</p>
+
+	<p>A few days later, Michael, Jake, and their crew encounter the shark, which followed the family from Amity. Jake is eager 
+	to research it because great white sharks have never been seen in the Bahamas due to the warm water. Michael asks him 
+	not to mention the shark to his family. During the day, Ellen can keep her mind off the shark, but at night she has nightmares 
+	of being attacked by it. She is also able to feel when the shark is about to attack one of her loved ones.</p>
+
+	<p>Jake decides to attach a device to the shark that can track it through its heartbeat. Using chum to attract it, Jake stabs 
+	the device's tracking pole into the shark's side. The next day, the shark ambushes and chases Michael through a sunken ship, 
+	and he narrowly escapes.</p>
+
+	<p>Thea goes on an inflatable banana boat with her friend Margaret and her mother. While Carla presents her new art sculpture, 
+	the shark attacks the back of the boat, killing Margaret's mother. After Thea is safe, Ellen boards Jake's boat to track down 
+	the shark, intending to kill it to save her family. After hearing about what happened, Michael confesses he knew about the shark, infuriating Carla.</p>
+
+	<p>Michael and Jake are flown by Hoagie to search for Ellen and find the shark in pursuit of their boat. During the search, Hoagie 
+	explains to Michael about Ellen's belief that the shark that killed Sean is hunting her family. When they find her, Hoagie lands 
+	the plane on the water, ordering Michael and Jake to swim to the boat as the shark drags the plane and Hoagie underwater.</p>
+
+	<p>Hoagie escapes from the shark, and Jake and Michael hastily put together a device that emits electrical impulses. As Jake moves 
+	to the front of the boat, the shark lunges up and mauls him. Jake manages to get the device into the shark's mouth before being 
+	dragged underwater. Michael begins blasting the shark with the impulses, which drive it mad; it repeatedly jumps out of the water, roaring in pain.</p>
+
+	<p>Michael continues blasting the shark with the impulses, causing it to leap out of the water again. Ellen steers the sailboat 
+	towards the shark, while thinking back to the shark's attack on Thea and also imagining Sean's death, and Martin defeating 
+	the first shark. As the shark is rearing up, she rams the broken bowsprit of the boat into it.</p>
+
+	<p>In the original version of the film that was screened in the U.S., the shark bleeds out and dies after being impaled. 
+	In the revised ending (for international theaters and DVD release), the impaling causes the shark to immediately explode, 
+	and its corpse sinks to the bottom of the ocean (footage from the ending of the first film is used to show this). Also in 
+	the revised ending, Michael hears Jake calling for help, seriously injured but still alive (Jake died in the original cut).</p> 
+
+	<p>A short time later, Hoagie flies Ellen back to Amity Island.</p>
+</div>
 
 <!-- Cast Information -->
 
@@ -142,12 +197,23 @@ The shark sinks his boat and drags him underwater to his death.</p>
 
 </div>
 
-<div>
-	<div>
-		<img  class="jaws-image" src="C:\Users\david\OneDrive\Desktop\jaws-image.png" alt="jaws image">
-	</div>
+<a href="https://www.rottentomatoes.com/m/jaws_the_revenge/reviews?type=top_critics" class="btn btn-outline-dark btn-lg" role="button" target="_blank">More Reviews</a>
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- Trailer -->
+
+<div id="C7" class="anchor-link"></div>
+<h2 class="cast"><b>Trailer</b><img src="C:\Users\david\OneDrive\Desktop\shark-icon.png" alt="Jaws" style="float:left;width:50px;height:42px;"></h2>
+
+</div class="trailer">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/opiCMIN3PNg?si=uzWJdEQMCZSfdAiM" 
+	title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+	gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>
