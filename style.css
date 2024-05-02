@@ -1,0 +1,89 @@
+.heading	{
+			color: black;
+			font-family: 'Nanum Myeongjo', serif;
+			font-size: 400%;
+			text-align: center;
+			padding: 20px;
+			margin-left: 150px;
+			margin-right: 150px;
+		}
+
+		.blockquote	{
+			color:black;
+			font-family: "Quicksand", sans-serif;
+			text-align: center;
+		}
+		
+		p {
+			font-family: "Quicksand", sans-serif;
+		}
+
+		.container { 
+			margin: 20px; 
+			}
+
+		img {
+  			border-radius: 10%;
+			display: block;
+  			margin-left: auto;
+  			margin-right: auto;
+  			width: 30%;
+		}
+
+
+/*-------------------------Navigation Bar--------*/
+
+ .navbar-nav {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 1.75em;
+  line-height: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+ }
+
+ @media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
+  .navbar-nav {
+   margin-bottom: 25px;
+   margin-top: 5px;
+  }
+ }
+
+ .navbar-light .navbar-nav .nav-link {
+  color: black;
+ }
+
+ .nav-item {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+ }
+
+ .navbar-toggler {
+  margin-bottom: 30px;
+ }
+
+ /*-------------------------Social Media Icons--------*/
+
+.icon {
+    	border-radius: 10%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	width: 12%;
+    	display: inline;
+	padding: 15px;
+}
+
+.div-left {
+	width: 50%;
+	float:left;
+	text-align: right;
+	
+}
+
+.div-right {
+	width: 50%;
+	float:right;
+	text-align: left;
+{
