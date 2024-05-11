@@ -61,12 +61,20 @@ html {
 
  /*------------------------- Page --------*/
 
-html, body {
+body {
                 width: 100%;
                 height: 100%;
                 margin: 0;
                 padding: 20px;
             }
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
+	html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+            }
+}
 
  /*------------------------- Blockquote --------*/
 
@@ -105,16 +113,47 @@ html, body {
 	font-size: 100%;
 }
 
+@media only screen and (max-width: 700px) {
+        .mob-hide-review {
+            display: none;
+        }
+    }
+
+@media only screen and (max-width: 700px) {
+        .mycontainer > div {
+  	width:100%;
+}
+    }
+
 
  /*------------------------- Trailer --------*/
 
 
-iframe {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-	margin-bottom: 50px;
-}
+ .video-styles {
+  text-align: center;
+ }
+ 
+ @media (max-width: 768px) {
+  .audio-styles.video-styles {
+   padding-left: 20px;
+   padding-right: 20px;
+  }
+ }
+ 
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .audio-styles.video-styles {
+   padding-left: 30px;
+   padding-right: 30px;
+  }
+ }
+
+ @media only screen and (min-device-width: 1024px) {
+  .audio-styles.video-styles {
+   padding-left: 200px;
+   padding-right: 200px;
+  }
+ }
+
 
  /*------------------------- Cast --------*/
 
@@ -134,12 +173,56 @@ iframe {
 	font-family: 'Nanum Myeongjo', serif;
 }
 
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
+.table {
+	width:100%;
+	margin: auto;
+	margin-bottom: 30px;
+	text-align: center;
+	font-family: 'Nanum Myeongjo', serif;
+}
+}
+
+
+ /*-------------------------Banner Image styling--------*/
+
+ .mobileShow {
+  display: none;
+ }
+
+ @media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
+  .mobileShow {
+   display: inline;
+  }
+ }
+
+ .mobileHide {
+  display: inline;
+ }
+
+ @media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
+  .mobileHide {
+   display: none;
+  }
+ }
+
+
+
+
  /*------------------------- Movie Website Links --------*/
 
 .icon-1 {
 	width: 17%;	
 	margin-bottom: 25px;
 }
+
+ @media only screen and (min-device-width: 0px) and (max-device-width: 700px) {
+  .icon-1 {
+	width: 30%;	
+	margin-bottom: 25px;
+	}
+ }
 
 
 .div-left-1 {
@@ -148,6 +231,12 @@ iframe {
 	text-align: left;
 	
 }
+
+.div-right-1 {
+	width: 50%;
+	float:right;
+	text-align: right;
+{
 
 .div-right-1 {
 	width: 50%;
