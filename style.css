@@ -208,6 +208,30 @@ body {
  }
 
 
+ /*-------------------------Footer--------*/
+
+ .jawsFooter {
+  width: 17%;
+  margin-top: 20px;
+ }
+
+ @media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
+  .jawsFooter {
+   width: 50%;
+  }
+ }
+
+ .footer {
+  margin-bottom: 50px;
+	margin-top: 75px;
+ }
+
+
+.anchor-link {
+ padding-bottom: 50px;
+}
+
+
 
 
  /*------------------------- Movie Website Links --------*/
