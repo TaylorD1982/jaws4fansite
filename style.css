@@ -1,269 +1,308 @@
-.heading	{
-			color: black;
-			font-family: 'Nanum Myeongjo', serif;
-			font-size: 400%;
-			text-align: center;
-			padding: 20px;
-			margin-left: 150px;
-			margin-right: 150px;
-		}
-
-.jaws-image {
-			border-radius: 10%;
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			width: 30%;
-	}
-
-p	{
-	font-family: 'Nanum Myeongjo', serif;
-	margin-top: 15px;
+body {
+	background-color: white;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 html {
-  scroll-behavior: smooth;
+	background-color: #1d7682;
 }
 
-
-/*-------------------------Navigation Bar--------*/
-
- .navbar-nav {
-  font-family: 'Nanum Myeongjo', serif;
-  font-size: 1.75em;
-  line-height: 15px;
-  text-align: center;
-  margin-bottom: 20px;
-  margin-top: 20px;
- }
-
- @media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
-  .navbar-nav {
-   margin-bottom: 25px;
-   margin-top: 5px;
-  }
- }
-
- .navbar-light .navbar-nav .nav-link {
-  color: black;
- }
-
- .nav-item {
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-bottom: 3px;
-  padding-top: 3px;
- }
-
- .navbar-toggler {
-  margin-bottom: 30px;
- }
-
- /*------------------------- Page --------*/
-
-body {
-                width: 100%;
-                height: 100%;
-                margin: 0;
-                padding: 20px;
-            }
-
-@media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
-	html, body {
-                width: 100%;
-                height: 100%;
-                margin: 0;
-            }
-}
-
- /*------------------------- Blockquote --------*/
-
-.paragraph-1 {
-	color: black;
-	font-family: 'Nanum Myeongjo', serif;
-	font-size: 120%;
-	text-align: center;
-}
-
- /*------------------------- Review Section --------*/
-
-.mycontainer {
-  	display: flex;
-	padding-bottom: 30px;
-}
-.mycontainer > div {
-  	width:33%;
-	color: black;
-	font-family: 'Nanum Myeongjo', serif;
-	text-align: center;
-	padding-left: 15px;
-	padding-right: 15px;
-}
-
-.review-heading {
-	font-weight: bold;
-	color: black;
-	font-family: 'Nanum Myeongjo', serif;
-	font-size: 150%;
-	text-align: center;
-	padding-bottom: 15px;
-}
-
-.review-text {
-	font-size: 100%;
-}
-
-@media only screen and (max-width: 700px) {
-        .mob-hide-review {
-            display: none;
-        }
-    }
-
-@media only screen and (max-width: 700px) {
-        .mycontainer > div {
-  	width:100%;
-}
-    }
-
-
- /*------------------------- Trailer --------*/
-
-
- .video-styles {
-  text-align: center;
- }
- 
- @media (max-width: 768px) {
-  .audio-styles.video-styles {
-   padding-left: 20px;
-   padding-right: 20px;
-  }
- }
- 
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .audio-styles.video-styles {
-   padding-left: 30px;
-   padding-right: 30px;
-  }
- }
-
- @media only screen and (min-device-width: 1024px) {
-  .audio-styles.video-styles {
-   padding-left: 200px;
-   padding-right: 200px;
-  }
- }
-
-
- /*------------------------- Cast --------*/
-
-.cast {
-	color: black;
-	font-family: 'Nanum Myeongjo', serif;
-	font-size: 200%;
-	padding-bottom: 30px;
-	padding-top: 50px;
-}
-
-.table {
-	width:70%;
-	margin: auto;
-	margin-bottom: 30px;
-	text-align: center;
-	font-family: 'Nanum Myeongjo', serif;
-}
-
-
-@media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
-.table {
-	width:100%;
-	margin: auto;
-	margin-bottom: 30px;
-	text-align: center;
-	font-family: 'Nanum Myeongjo', serif;
-}
-}
-
-
- /*-------------------------Banner Image styling--------*/
-
- .mobileShow {
-  display: none;
- }
-
- @media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
-  .mobileShow {
-   display: inline;
-  }
- }
-
- .mobileHide {
-  display: inline;
- }
-
- @media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
-  .mobileHide {
-   display: none;
-  }
- }
-
-
- /*-------------------------Footer--------*/
-
- .jawsFooter {
-  width: 17%;
-  margin-top: 20px;
- }
-
- @media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
-  .jawsFooter {
-   width: 50%;
-  }
- }
-
- .footer {
-  margin-bottom: 50px;
-	margin-top: 75px;
- }
-
-
-.anchor-link {
- padding-bottom: 50px;
-}
-
-
-
-
- /*------------------------- Movie Website Links --------*/
-
-.icon-1 {
-	width: 17%;	
-	margin-bottom: 25px;
-}
-
- @media only screen and (min-device-width: 0px) and (max-device-width: 700px) {
-  .icon-1 {
-	width: 40%;	
-	margin-bottom: 25px;
+@media only screen and (max-width: 600px) {
+	body {
+		padding-left: 5px;
+		padding-right: 5px;
+		margin-top: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
 	}
- }
+}
+
+rank {
+	width: 100%;
+}
+
+#doc-title .name {
+    font-size: 0px;
+}
 
 
-.div-left-1 {
-	width: 50%;
-	float:left;
+/*------------------------- Footer --------*/
+
+
+.footer {
+	text-align: center;
+	font-family: "Alumni Sans Inline One", sans-serif;
+	font-size: 150%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+
+@media only screen and (max-width: 600px) {
+.footer {
+	font-size: 110%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}}
+
+
+/*------------------------- Heading --------*/
+
+
+.heading {
+	font-family: "Alumni Sans Inline One", sans-serif;
+	font-size: 550%;
+	text-align: center;
+	padding-top: 20px;
+	color: #1D1D1;
+}
+
+@media only screen and (max-width: 700px) {
+.heading {
+	font-size: 290%;
+	padding-bottom: 10px;
+}
+}
+
+.subHeading {
+	font-family: "Alumni Sans Inline One", sans-serif;
+	font-size: 450%;
+	text-align: center;
+	padding-bottom: 10px;
+	color: #c41508;	
+	font-weight: bold;
+	font-family: "Architects Daughter", cursive;
+}
+
+/*------------------------- Section Heading --------*/
+
+
+	/*------------------------- Pub Photos --------*/
+
+
+.pubPhoto {
+	width: 150px;
+	border-radius: 50%;
+	border: 5px solid #1D1D1;
+}
+
+@media only screen and (max-width: 700px) {
+.pubPhoto {
+	width: 100px;
+	border-radius: 50%;
+	border: 5px solid #1D1D1;
+}}
+
+.iconHeadingRight {
 	text-align: left;
+}
+
+
+	/*------------------------- Pub Names --------*/
+
+.iconHeadingLeft {
+	align-items: center;
+	display: flex;
+	font-size: 130%;
 	
 }
 
-.div-right-1 {
-	width: 50%;
-	float:right;
-	text-align: right;
-{
+@media only screen and (max-width: 700px) {
+.iconHeadingLeft {
+	font-size: 165%;
+	
+}}
 
-.div-right-1 {
+@media only screen and (max-width: 700px) {
+.iconHeadingLeftSmall {
+	align-items: center;
+	display: flex;
+	font-size: 150%;
+	
+}}
+
+	
+	/*------------------------- Rating --------*/
+
+.stars {
+  	text-align: center;
+  	background-color: white;
+  	color: #FFD700;
+  	font-size: 1.5em;
+	padding-bottom: 15px;
+	padding-top: 0px;
+ }
+
+.rosette {
+	position: absolute;
+	top: -70px; 
+	left: 55px; 
+	width:80px;
+}
+
+@media only screen and (max-width: 700px) {
+.rosette {
+	position: absolute;
+	top: -40px; 
+	left: -5px; 
+	width: 60px;
+}
+}
+ /*------------------------- Pint Glass Banner Image styling--------*/
+
+
+.bannerImage {
+	text-align: center;
+	align-items: center;
+}
+
+.bannerImage img {
+ 	width: 100px;
+}
+
+ @media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
+.bannerImage img {
+ 	width: 60px;
+}
+}
+
+
+/*------------------------- Search function --------*/
+
+
+	/*------------------------- Hides the items in the list --------*/
+
+.name {
+	display: none;
+}
+
+
+#myInput {
+  	width: 100%;
+  	font-size: 16px;
+  	padding: 12px 10px 12px 40px;
+  	border: 3px solid #1D1D1;
+  	margin-bottom: 12px;
+	font-family: Courier New;
+}
+
+#myUL {
+  	list-style-type: none;
+}
+
+ @media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
+ul#myUL {
+	padding: 0px;
+}
+}
+
+.search-bar {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+ @media only screen and (min-device-width: 0px) and (max-device-width: 1000px) {
+.search-bar {
+	padding-bottom: 20px;
+}
+}
+
+/*------------------------- Drop down contents --------*/
+
+	/*------------------------- Social Media Icons --------*/
+
+ .social-media-icons {
+  	text-align: center;
+  	background-color: white;
+  	color: black;
+ 	word-spacing: 25px;
+  	font-size: 1.75em;
+	padding-bottom: 10px;
+	padding-top: 20px;
+ }
+
+ a {
+  color: black;
+  text-decoration: none;
+ }
+
+
+	/*------------------------- Address and Opening Times --------*/
+
+.address {
+	text-align: left;
+}
+
+
+
+
+/*------------------------- Collapsible --------*/
+
+.center-icons {
+	margin-left: auto;
+  	margin-right: auto;
+	text-align: center;
+	font-family: "Architects Daughter", cursive;
+	padding-bottom: 10px;
+}
+
+.collapsible {
+	background-color: white;
+  	cursor: pointer;
+  	padding: 5px;
+	border: none;
 	width: 50%;
-	float:right;
-	text-align: right;
-{
+	text-align: center;
+	font-family: "Alumni Sans Inline One", sans-serif;
+	font-size: 180%;
+	transition: transform .2s
+}
+
+@media only screen and (max-width: 600px) {
+  .collapsible {
+  	padding: 1px;
+	padding-left: 20px;
+	width: 100%;
+	font-size: 90%;
+	padding-bottom: 15px;
+  }
+}
+
+.active, .collapsible:hover {
+	transform: scale(1.04);
+}
+
+.content {
+  	padding: 0 18px;
+  	display: none;
+  	overflow: hidden;
+  	background-color: white;
+	width: 70%;
+	margin-left: auto;
+  	margin-right: auto;
+	text-align: center;
+	font-family: "Architects Daughter", cursive;
+}
+
+@media only screen and (max-width: 600px) {
+div.content {
+	padding: 0px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+  	padding: 0 18px;
+  	display: none;
+  	overflow: hidden;
+	width: 100%;
+	margin-left: auto;
+  	margin-right: auto;
+	text-align: center;
+}
+}
